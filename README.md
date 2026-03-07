@@ -78,6 +78,4 @@ Plaintext
 👤 Author
 Shubham Singh
 
-Specialization: CSE (IoT, Cybersecurity, & Blockchain)
 
-Would you like me to add a "Future Scope" section to the README where we can mention adding real-time IoT data for live battery monitoring?
