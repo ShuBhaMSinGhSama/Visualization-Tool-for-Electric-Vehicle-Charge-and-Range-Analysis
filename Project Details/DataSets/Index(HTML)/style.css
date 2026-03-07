@@ -1,0 +1,81 @@
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+    color: #1a1a1a;
+}
+
+header {
+    background-color: #ffffff;
+    padding: 30px 20px;
+    text-align: center;
+    border-bottom: 2px solid #e1e4e8;
+}
+
+header h1 {
+    margin: 0;
+    color: #004a99;
+    font-size: 2rem;
+}
+
+header p {
+    color: #666;
+    margin-top: 5px;
+}
+
+/* Tab Styling */
+.tab-container {
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.tab-link {
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 24px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #555;
+    transition: 0.3s;
+    border-bottom: 3px solid transparent;
+}
+
+.tab-link:hover {
+    color: #004a99;
+}
+
+.tab-link.active {
+    color: #004a99;
+    border-bottom: 3px solid #004a99;
+}
+
+/* Tab Content Visibility */
+.tab-content {
+    display: none;
+    padding: 20px;
+    animation: fadeEffect 0.5s;
+}
+
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+/* Viz Wrapper */
+.viz-wrapper {
+    max-width: 1400px;
+    margin: 0 auto;
+    background: white;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
