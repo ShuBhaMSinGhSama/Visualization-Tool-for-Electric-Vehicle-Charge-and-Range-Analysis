@@ -1,3 +1,7 @@
+DashBoard Link: https://public.tableau.com/views/EV_Charge_Range_Analysisfinal/EVPerformanceDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+
+Story Link: https://public.tableau.com/views/EV_Charge_Range_Analysisfinal/Story1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+
 ⚡ Visualization Tool for Electric Vehicle Charge and Range Analysis
 An end-to-end Data Analytics web application that provides deep insights into the Electric Vehicle (EV) ecosystem. This project integrates a robust MySQL backend, high-fidelity Tableau visualizations, and a modern Flask web interface to analyze EV performance, market trends, and charging infrastructure.
 
