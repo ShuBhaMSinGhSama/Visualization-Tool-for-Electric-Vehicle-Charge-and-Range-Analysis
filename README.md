@@ -11,11 +11,11 @@ Interactive Analysis Portal: EV Performance Dashboard
 The EV Story (India Focus): Story of Electric Cars in India
 
 🛠️ Tech Stack
-Frontend: HTML5, CSS3 (Glassmorphism UI), JavaScript
+Frontend: HTML5, CSS3 , JavaScript
 
 Backend: Python (Flask)
 
-Database: MySQL Workbench (Data Storage & Querying)
+Database: MySQL Workbench (Data Storage & Querying) & CSV files
 
 Visualization: Tableau Desktop & Tableau Public
 
@@ -47,27 +47,6 @@ Range Analysis: Detailed tracking of mileage/range across available Indian model
 Geographic Mapping: A map-based visualization of charging stations across India.
 
 Distribution: Treemaps and Donut charts showing power distribution and service types.
-
-💻 Installation & Setup
-Clone the repository
-
-Bash
-git clone https://github.com/your-username/ev-analysis-tool.git
-cd ev-analysis-tool
-Set up a Virtual Environment
-
-Bash
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-Install Dependencies
-
-Bash
-pip install flask
-Run the Application
-
-Bash
-python app.py
-Access the tool at http://127.0.0.1:5000/.
 
 📂 Repository Structure
 Plaintext
